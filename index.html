@@ -32,11 +32,13 @@
             color: #FDFDFD;
             
         }
-        
+
         img {
             display: block;
             width: 100%;
-            padding: 20px 20px;
+            padding: 0px 20px;
+
+            
         }
 
     </style>
@@ -54,7 +56,10 @@
                 {{ saluto }}
             </h1>
 
-            <img :src="immagine" alt="Peter Griffin ti saluta!">
+            <div>
+                <img :src="immagine" alt="Peter Griffin ti saluta!">
+            </div>
+            
         </header>
 
     </div>
